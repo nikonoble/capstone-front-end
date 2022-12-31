@@ -1,5 +1,5 @@
 .nav-bar {
-    background-color: black;
+    background-color: rgba(129, 74, 218, 0.829);
         .logo {
             display: flex;
             justify-content: center;
@@ -25,17 +25,17 @@
                 color: whitesmoke;
                 text-decoration: none;
                 &:hover {
-                    color: rgb(103, 167, 189);
+                    color: rgb(0, 0, 0);
                 }
             }
 
             &:hover {
-                border-bottom: 1px solid rgb(103, 167, 189);
+                border-bottom: 1px solid rgb(0, 0, 0);
             }
 
             .nav-link-active {
-                border-bottom: 1px solid rgb(103, 167, 189);
-                color: rgb(103, 167, 189);
+                border-bottom: 1px solid rgb(0, 0, 0);
+                color: rgb(0, 0, 0);
             }
         }
     }

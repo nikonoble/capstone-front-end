@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ContactForm from '../contact-form';
+
 export default function() {
     return (
         <div className="contact-page-wrapper">
@@ -24,7 +26,12 @@ export default function() {
                 <div className="contact-info">
                     <div className="text">Waikiki, HI</div>
                 </div>
+
+            <div className='contact-form-wrapper'>
+                <ContactForm />
             </div>
+            </div>
+
         </div>
     );
 }

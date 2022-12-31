@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from "react-router";
 import { NavLink } from 'react-router-dom';
-import logo from "../../../static/assets/images/kloudcustom-logo.jpg";
+import logo from "../../../static/assets/images/logo.png";
 
 const NavComponent = (props) => {
     return (
