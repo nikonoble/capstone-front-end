@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContactForm from '../contact-form';
+import ContactForm from '../forms/contact-form';
 
 export default function() {
     return (

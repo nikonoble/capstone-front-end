@@ -6,13 +6,13 @@ const ContactForm = () => {
             send.preventDefault()
             setFormStatus('Submitting...')
             const { name, email, message } = send.target.elements
-            const conFom = {
+            const contactForm = {
                 name: name.value,
                 email: email.value,
                 message: message.value,
             }
   
-            console.log(ContactForm)
+            console.log(contactForm)
         }
     return (
         <div className="form-container">
