@@ -1,0 +1,30 @@
+.inventory-item-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+    .shoe-wrapper{
+        position: relative;
+        padding: 30px;
+
+        .shoe-name{
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+
+        .shoe-description{
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 5px;
+            font-size: 14px;
+        }
+
+        .shoe-image-wrapper img {
+            height: 500px;
+            width: 500px;
+        }
+    }
+}
