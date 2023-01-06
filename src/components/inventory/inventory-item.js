@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function InventoryItem() {
+function InventoryItem() {
 
     const renderShoe = (shoe) => {
 
@@ -169,5 +169,12 @@ export default function InventoryItem() {
             })  
             .catch(error => console.log("Error Adding New Shoe: ", error))
     }
+
+    return (
+        <div>
+            <button onclick={renderShoe}>Render Shoe</button>
+        </div>
+    )
 }
 
+export default InventoryItem
