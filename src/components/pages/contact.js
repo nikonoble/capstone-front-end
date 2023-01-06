@@ -11,7 +11,7 @@ export default function() {
                 <div className="contact-info">
                     <div className="contact-paragraph">
                         <h1>Reach Out Now</h1>
-                        <h2>Get your own Kustom shoes or we'll help you find your perfect pair.</h2>
+                        <h2>Get your own Custom shoes or we'll help you find your perfect pair.</h2>
                     </div>
                 </div>
 
@@ -20,7 +20,7 @@ export default function() {
                 </div>
 
                 <div className="contact-info">
-                    <div className="email">kloudkustoms@shoes.com</div>
+                    <div className="email">kloudcustoms@shoes.com</div>
                 </div>
 
                 <div className="contact-info">
