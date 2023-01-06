@@ -21,7 +21,7 @@ const ContactForm = () => {
                 <div className="input-wrapper">
                     <label className="name">Name: </label>
                     <input className="form-control" type="text" id="name" required />
-                </div>input-wrapper
+                </div>
 
                 <div className="input-wrapper">
                     <label className="email">Email: </label>

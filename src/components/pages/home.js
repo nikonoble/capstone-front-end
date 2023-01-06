@@ -5,10 +5,10 @@ import InventoryItem from '../inventory/inventory-item';
 export default function() {
     return (
         <div className='app'>
-            <h1>Kloud Kustoms</h1>
+            <h1>Kloud Customs</h1>
             <h2>Shoe Gallery</h2>
 
-            {/* <InventoryItem /> */}
+            <InventoryItem />
 
         </div>
     );
